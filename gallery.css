@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(background\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:gold;
+}
+.header{
+    position: static;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:  100;
+}
+.logo{
+    font-size: 55px;
+    color: burlywood;
+    text-decoration: none;
+    font-weight: 650;
+    text-shadow: 4px 13px 5px black;
+    letter-spacing: 20px;
+    text-transform: capitalize;
+    line-height: 25px;
+    cursor: none;
+}
+.navbar a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 45px;
+    transition: .9s;
+}
+.navbar a:hover,
+.navbar a:active{
+    color:burlywood;
+    font-size: 50px;
+}
+.greetings{
+    -webkit-background-clip: text;
+    text-transform: capitalize;
+    margin: 20px;
+    cursor: none;
+    animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes color{
+    0%{ color: white;}
+    20%{ color: green;}
+    30%{ color: black;}
+    50%{color: blue;}
+    70%{color: red;}
+    90%{ color: linear-gradient(50deg,green,blue,black,white,pink, gold);;}
+    100%{color: skyblue}
+}
+.greetings h1{
+    margin-left: 60px;
+    font-weight: 900;
+    font-size: 120px;
+}
+.greetings pre{
+   text-align: center;
+   padding-top: 40px;
+   font: 'Lucida Sans',sans-serif;
+    font-size: 27px;
+    font-weight: 999;
+    background-image: linear-gradient(16deg,red,white, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(198, 185, 185, 0.587);
+    border-radius: 20px;
+    cursor: none;
+    
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1{
+    cursor:pointer;
+    /* background-color: blue; */
+    font-size: 60px;
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    /* padding-bottom: 10px; */
+    margin: 30px;
+}
+.number1{
+   width: 400px;
+   height: 600px;
+   background-image: url(wardrobe.JPG);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px;
+   transition: 6s;
+   transition-timing-function: ease-in;
+}
+.number1 h3{
+    font-size: 40px;
+    text-align: end;
+    padding-top: 40px;
+    color: gold;
+}
+.number2{
+    width: 400px;
+    height: 600px;
+    background-image: url(chair\ \(14\).JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 3s;
+    transition-timing-function: ease-in;
+ }
+.number2:hover{
+    background-image: url(chair\ \(13\).JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+ .number2 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ .number3{
+    width: 400px;
+    height: 600px;
+    background-image: url(chair\ \(4\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 6s;
+    transition-timing-function: ease-in;
+ }
+ .number3 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 190px;
+     color: gold;
+ }
+ .number4{
+    width: 400px;
+    height: 600px;
+    background-image: url(cupboard\ \(2\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in;
+ }
+ .number4:hover{
+    background-image: url(cupboard\ 3.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ }
+ .number4 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ .number5{
+    width: 400px;
+    height: 600px;
+    background-image: url(chair\ \(6\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+ }
+ .number5:hover{
+    background-image: url(chair\ \(6\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 3s;
+    
+ }
+ .number5 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ .number6{
+    width: 400px;
+    height: 600px;
+    background-image: url(bed.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+ }
+ .number6 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 190px;
+     color: gold;
+ }
+ 
+ .number7{
+    width: 400px;
+    height: 600px;
+    background-image: url(chair\ \(1\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+ }
+ .number7:hover{
+    background-image: url(chair\ \(11\).JPG);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    transition: 3s;
+    
+ }
+ .number7 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 190px;
+     color: gold;
+ }
+ .number8{
+    width: 400px;
+    height: 600px;
+    background-image: url(chair\ \(12\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    
+    transition: 12s;
+    transition-timing-function: ease-in-out;
+ }
+ .number8 h3{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+     font-size: 40px;
+     text-align: end;
+     padding-top: 190px;
+     color: gold;
+ }
+ .number9{
+    width: 400px;
+    height: 600px;
+    background-image: url(cupboard\ 5.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 4s;
+    transition-timing-function: ease-in-out;
+ }
+ .number9:hover{
+    background-image: url(cupboard\ 6.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 6s;
+    
+ }
+ .number9 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ 
+ .number10{
+    width: 400px;
+    height: 600px;
+    background-image: url(cupboard\ 8.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+ }
+ .number10 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ .number11{
+    width: 400px;
+    height: 600px;
+    background-image: url(cupboard.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+ }
+ .number11:hover{
+    background-image: url(kitchen.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 6s;
+    
+ }
+ .number11 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 140px;
+     color: gold;
+ }
+ .number12{
+    width: 400px;
+    height: 600px;
+    background-image: url(cupboard\ 9.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+ }
+ .number12 h3{
+     font-size: 40px;
+     text-align: end;
+     padding-top: 40px;
+     color: gold;
+ }
+ footer{
+    cursor: default;
+    width: 99%;
+    /* margin-top: 7dvh; */
+    font-size: 25px;
+    background-color: grey;
+}
+
+footer a{
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: large;
+    color: white;
+}
+.copyright{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    position: sticky;
+    margin-left: 1200px;
+    width: fit-content;
+    justify-content: end;
+    opacity: .4;
+}
+/* .section1 img{
+    display: block;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+} */
+.number1:hover{
+    /* transform: scale(.67,1); */
+}
